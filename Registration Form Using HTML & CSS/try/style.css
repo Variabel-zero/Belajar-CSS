@@ -1,0 +1,71 @@
+body{
+	/*background: #00d4ff;*/
+	font: 1em sans-serif;
+
+	background: rgb(4,7,105);
+background: linear-gradient(90deg, rgba(4,7,105,0.9640231092436975) 12%, rgba(255,63,102,0.9023984593837535) 55%, rgba(255,0,35,1) 100%);
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	color: white;
+}
+
+form{
+	margin: 20px auto;
+	width: 320px;
+	color: steelblue;
+	/*border:5px solid black;*/
+}
+
+input{
+	padding: 10px;
+	font-size: inherit;
+	background: #faf6f9;
+	text-align: center;
+}
+
+input[type="text"],input[type='password']{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border:2px solid white;
+	border-radius: 20px;
+}
+
+input[type='radio']+label{
+	margin:0 8px 25px 18px;
+	display: inline-block;
+	color: white;
+}
+
+input[type='radio']:first-child{
+	margin-left: 0 ;
+}
+
+button[type='submit']{
+	width:344px;
+	height:45px;
+	color:#454343;
+	border:none;
+	background: white;
+	font-size: 20px;
+	border-radius: 15px;
+}
+
+input:focus{
+	background-color: white;
+}
+
+input[type='radio']:checked+label{
+	font-weight: bold;
+	font: 12px;
+	color: 
+}
+
+button[type='submit']:hover{
+	border:solid #EA5455;
+	color: #EA5455;
+	background: white;
+}
